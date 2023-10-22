@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'fakhodkar'; /* نام دلخواه فونت */
+    src: url('Far_khodkar.ttf') format('tff'); /* مسیر فونت و فرمت آن */
+}
+.sidebar {
+    width: 100px;
+    background-color: #0074D9;
+    color: #fff;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100%;
+    text-align: right; /* ترتیب محتوا به سمت راست */
+}
+
+.sidebar ul {
+    list-style: none;
+}
+
+.sidebar li {
+    margin-bottom: 10px;
+}
+
+.sidebar a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* استایل بخش اصلی محتوا */
+.main-content {
+    margin-left: 270px; /* تا سایدبار جا بیفتد */
+    padding: 20px;
+}
+
+/* ادامه استایل‌دهی به سایر بخش‌ها و متن‌ها */
+.profile-image {
+    margin: 0 auto; /* تا عکس در وسط قرار بگیرد */
+    width: 200px; /* اندازه عکس شخصی را تعیین کنید */
+    height: 200px; /* اندازه عکس شخصی را تعیین کنید */
+    border-radius: 50%; /* برای گرد کردن چون عکس شخصی */
+    overflow: hidden;
+}
+
+.profile-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* برای انطباق عکس با مربع مشخص شده */
+}
+#about {
+    font-family: 'fakhodkar', sans-serif; /* انتخاب فونت برای بخش بیوگرافی */
+    color: rgb(182, 218, 242);
+    text-align: center;
+}
+body {
+background-image: url("bak.jpeg")
+}
+@media (max-width: 768px) {
+    /* استایل‌هایی برای صفحات با عرض کمتر از 768 پیکسل */
+}
